@@ -1,0 +1,86 @@
+body {
+	background-color: #ddd;
+}
+
+.wrapper {
+	width: 1024px;
+	margin: 0 auto;
+}
+
+.header {
+	background-color: salmon;
+	height: 100px;
+}
+
+.header h1 {
+	line-height: 100px;
+	font-size: 48px;
+	padding-left: 30px; 
+}
+
+.header a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.nav {
+	height: 65px;
+	background-color: #fff;
+	line-height: 65px;
+	text-align: center;
+	border-bottom: 10px solid salmon;
+}
+
+.nav a {
+	text-decoration: none;
+	color: salmon;
+	font-size: 18px;
+	padding: 10px;	
+}
+
+.nav a:hover {
+	background-color: salmon;
+	color: #fff;
+	border-radius: 30px;
+}
+
+.sidebar {
+	float: left;
+	width: 224px;
+	background-color: #fff; 
+	min-height: 600px; 
+}
+
+.sidebar h2 {
+	margin: 25px 0px 0px 25px;
+}
+
+.sidebar ol {
+	margin: 10px;
+}
+
+.article {
+	float: left;
+	width: 800px;
+	background-color: #f7f7f7;
+	min-height: 600px;
+}
+
+.article h1, p {
+	margin: 25px;
+	text-align: justify;
+}
+
+.footer {
+	height: 80px;
+	background-color: salmon;
+	clear: both;
+	text-align: center;
+}
+
+.footer span {
+	line-height: 80px;
+	color: #fff;	
+}
+
+
